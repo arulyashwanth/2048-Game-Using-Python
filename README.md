@@ -14,8 +14,6 @@ This project is built with Python's core functionality, and optionally, a graphi
   - [Running the Game](#running-the-game)
 - [Game Rules](#game-rules)
 - [Controls](#controls)
-- [Project Structure](#project-structure)
-- [Future Enhancements](#future-enhancements)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -79,3 +77,34 @@ Before you can run the game, you’ll need the following:
 - **README.md**: Documentation file providing an overview of the project, instructions for installation, and rules of the game.
 - **requirements.txt**: A file listing any additional Python libraries that need to be installed (if applicable).
 - **assets/**: A directory that may contain graphical assets for a GUI version of the game (optional).
+## Controls
+Players can control the movement of tiles using the following commands:
+
+- **Up**: `W` or `w`
+- **Down**: `S` or `s`
+- **Left**: `A` or `a`
+- **Right**: `D` or `d`
+
+Each command will shift the tiles in the specified direction. The tiles will slide as far as possible until they hit the edge of the grid or collide with another tile of the same value, triggering a merge. After every move, a new tile will be added to the grid.
+## Contributing
+Contributions to the project are welcome! If you would like to contribute, please follow these steps:
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix:
+   ```bash
+   git checkout -b feature/YourFeatureName
+3. Make Your Changes and Commit Them
+
+After making your desired changes to the code, you can commit them using the following steps:
+
+1. Add the changes to the staging area:
+   ```bash
+   git add .
+2. Commit your changes with a descriotive message:
+   ```bash
+   git commit -m "Brief description of the changes made"
+3. Esure that your commit message is concise yet descriptive enough to explain the changes. this practive helps in maintaining a clear project history.
+
+## License
+This project is licensed under the MIT License. You are free to use, modify, and distribute the code as long as you include the original license in your distribution. 
+
+For more details, please see the [LICENSE](LICENSE) file in the repository.
